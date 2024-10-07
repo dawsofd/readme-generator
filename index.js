@@ -92,7 +92,7 @@ function writeToFile(filename, data) {
 
 // function to initialize inquirer 
 function init() {
-    inquirer.prompt(questions)
+    inquirer.prompt(userInput)
     .then((inqurierResponses) => {
         console.log("Generating README...");
         writeToFile("./assets/utils/sampleREADME.md", generateMarkdown({...inquirerResponses }));
