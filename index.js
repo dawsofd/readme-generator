@@ -86,7 +86,7 @@ const userInput = [
 ];
 
 // function to write README file 
-function writeToFile(filename, data) {
+function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
@@ -95,7 +95,7 @@ function init() {
     inquirer.prompt(userInput)
     .then((inqurierResponses) => {
         console.log("Generating README...");
-        writeToFile("./assets/utils/sampleREADME.md", generateMarkdown({...inquirerResponses }));
+        writeToFile("./assets/utils/sampleREADME.md", generateMarkdown({ ...inqurierResponses }));
     })
 }
 
