@@ -53,7 +53,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Walkthrough Video
 
-![Walkthrough Video](./assets/videos/readme-generator-walkthrough.mp4)
+![Walkthrough Video](https://drive.google.com/file/d/17BSEcgwQV1QjGDldG3tEtvbzYss9vuek/view?usp=sharing)
 
 ## Installation 
 - Clone repository to local machine
