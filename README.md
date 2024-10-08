@@ -6,7 +6,7 @@ The motivation for this project is to simplify the process of generating a high-
 
 The application condenses the process into a few simple prompts saving the user a lot of time.  
 
-This project is my first application created using Node.js. 
+This project is my first application created using Node.js! 
 
 
 ## Table of Contents

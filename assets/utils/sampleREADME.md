@@ -1,52 +1,52 @@
 # readme-generator-TEST
 
-    ## Description 
+## Description 
 
-    The motivation for this project is to simplify the process of generating a high-quality, professional README for a new repository.  
+The motivation for this project is to simplify the process of generating a high-quality, professional README for a new repository.  
 
-    The application condenses the process into a few simple prompts saving the user a lot of time.  
+ The application condenses the process into a few simple prompts saving the user a lot of time.  
 
-    This project is my first application created using Node.js!
+This project is my first application created using Node.js!
 
-    ## Table of Contents 
+## Table of Contents 
 
-    * [Installation](#installation)
+* [Installation](#installation)
 
-    * [Usage](#usage)
+* [Usage](#usage)
 
-    * [Credits](#contributors)
+* [Credits](#contributors)
 
-    * [License](#license)
+* [License](#license)
 
-    ## Installation
+## Installation
 
-    To install dependencies, run these commands:
+To install dependencies, run these commands:
 
-    ```
-    npm i
-    ```
+```
+npm i
+```
 
-    To complete installing the project, follow these steps:
+To complete installing the project, follow these steps:
 
-    lone repository to local machine, initialize npm
+clone repository to local machine, initialize npm
 
-    ## Usage
+## Usage
 
-     open terminal, run node index.js, answer prompts, sample readme will be generated in utils folder
+open terminal, run node index.js, answer prompts, sample readme will be generated in utils folder
 
-    ## Credits 
+## Credits 
 
-    dawsofd
+dawsofd
     
-    ## License
+## License
             
             Copyright @ MIT License.  All rights reserved.
             
             Licensed under the MIT License license.
 
-    ## Contact Me 
+## Contact Me 
 
-    For additional questions, you can contact me via: 
+For additional questions, you can contact me via: 
 
-    - Github: [dawsofd](https://github.com/dawsofd/)
-    - Email:  d.dohlen@pm.me
+- Github: [dawsofd](https://github.com/dawsofd/)
+- Email:  d.dohlen@pm.me
