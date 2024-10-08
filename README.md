@@ -49,11 +49,11 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ## Application Preview 
-(./assets/images/preview.gif)
+![Walkthrough GIF](./assets/images/readme-generator-walkthrough.gif)
 
 ## Walkthrough Video
 
-[Link](https://)
+![Walkthrough Video](./assets/videos/readme-generator-walkthrough.mp4)
 
 ## Installation 
 - Clone repository to local machine
