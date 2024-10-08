@@ -1,12 +1,12 @@
-# readme-generator-TEST
+# readme-generator
 
 ## Description 
 
-test
+The motivation for this project is to simplify the process of generating a high-quality, professional README for a new repository.
 
-test
+The application condenses the process into a few simple prompts saving the user a lot of time.
 
-test
+This project is my first application created using Node.js!
 
 ## Table of Contents 
 
@@ -28,15 +28,15 @@ npm i
 
 To complete installing the project, follow these steps:
 
-- eat
-- pray
-- love
+- Clone the repository to your local machine
+- Initalize npm
 
 ## Usage
 
-- eat
-- pray
-- love
+- Open terminal
+- Run the command node index.js
+- Answer prompts
+- A sample README will be generated and stored in the utils folder
 
 ## Credits 
 
