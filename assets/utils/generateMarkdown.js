@@ -11,12 +11,6 @@ function renderLicenseSection(license) {
     return ""
 }
 
-function renderInstallation(installation) {
-    const installationString = ${installation};
-    const installationList = installationString.replaceAll(",","-");
-    return installationList;
-}
-
 // function to structure README markdown 
 function generateMarkdown(data) {
     return `# ${data.title}
@@ -48,12 +42,10 @@ ${data.dependencies}
 \`\`\`
 
 To complete installing the project, follow these steps:
-
-${renderInstallation(data.installationList)}
+${((","+(data.installation)).replaceAll(",","\n-")).replace(/ /g,'')}
 
 ## Usage
-
-${data.usage}
+${((","+(data.usage)).replaceAll(",","\n-")).replace(/ /g,'')}
 
 ## Credits 
 
