@@ -1,13 +1,13 @@
 # readme-generator-TEST
-    ![Github License](https://img.shields.io/badge/license-MIT License-yellowgreen.svg)
+    ![Github License](https://img.shields.io/badge/license-APACHE2.0-yellowgreen.svg)
 
     ## Description 
 
-    test
+    The motivation for this project is to simplify the process of generating a high-quality, professional README for a new repository.  
 
-    test
+    The application condenses the process into a few simple prompts saving the user a lot of time.  
 
-    test
+    This project is my first application created using Node.js. 
 
     ## Table of Contents 
 
@@ -29,23 +29,21 @@
 
     To complete installing the project, follow these steps:
 
-    test,test,test
+    Clone repository to local machine, initialize npm
 
     ## Usage
 
-    test,test
+    open terminal, run node index.js, answer prompts, sample readme will be generated in utils folder
 
     ## Credits 
 
     dawsofd
-
-    ## License 
     
     ## License
             
-            Copyright @ MIT License.  All rights reserved.
+            Copyright @ APACHE2.0.  All rights reserved.
             
-            Licensed under the MIT License license.
+            Licensed under the APACHE2.0 license.
 
     ## Contact Me 
 
@@ -53,4 +51,3 @@
 
     - Github: [dawsofd](https://github.com/dawsofd/)
     - Email:  d.dohlen@pm.me
-
