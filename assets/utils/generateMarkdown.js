@@ -11,57 +11,60 @@ function renderLicenseSection(license) {
     return ""
 }
 
+function renderInstallation(installation) {
+
+}
+
 // function to structure README markdown 
 function generateMarkdown(data) {
     return `# ${data.title}
 
-    ## Description 
+## Description 
 
-    ${data.descriptionWhy}
+${data.descriptionWhy}
 
-    ${data.descriptionProblem}
+${data.descriptionProblem}
 
-    ${data.descriptionLearn}
+${data.descriptionLearn}
 
-    ## Table of Contents 
+## Table of Contents 
 
-    * [Installation](#installation)
+* [Installation](#installation)
 
-    * [Usage](#usage)
+* [Usage](#usage)
 
-    * [Credits](#contributors)
+* [Credits](#contributors)
 
-    * [License](#license)
+* [License](#license)
 
-    ## Installation
+## Installation
 
-    To install dependencies, run these commands:
+To install dependencies, run these commands:
 
-    \`\`\`
-    ${data.dependencies}
-    \`\`\`
+\`\`\`
+${data.dependencies}
+\`\`\`
 
-    To complete installing the project, follow these steps:
+To complete installing the project, follow these steps:
 
-    ${data.installation}
+${data.installation}
 
-    ## Usage
+## Usage
 
-    ${data.usage}
+${data.usage}
 
-    ## Credits 
+## Credits 
 
-    ${data.contributors}
+${data.contributors}
     
-    ${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
 
-    ## Contact Me 
+## Contact Me 
 
-    For additional questions, you can contact me via: 
+For additional questions, you can contact me via: 
 
-    - Github: [${data.github}](https://github.com/${data.github}/)
-    - Email:  ${data.email}
-`;
+- Github: [${data.github}](https://github.com/${data.github}/)
+- Email:  ${data.email}`;
 }
 
 module.exports = generateMarkdown;
