@@ -1,6 +1,25 @@
 # readme-generator
 UCB-VIRT-FSF-PT-07-2024-U-LOLC Homework Assignment #9
 
+## Description
+The motivation for this project is to simplify the process of generating a high-quality, professional README for a new repository.  
+
+The application condenses the process into a few simple prompts saving the user a lot of time.  
+
+This project is my first application created using Node.js. 
+
+
+## Table of Contents
+
+- [User Story](#User-Story)
+- [Acceptance Criteria](#Acceptance-Criteria)
+- [Application Preview](#Application-Preview)
+- [Walkthrough Video](#Walkthrough-Video)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [License](#License)
+
 ## User Story
 
 ```md
@@ -30,11 +49,19 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ## Application Preview 
+(./assets/images/preview.gif)
 
 ## Walkthrough Video
 
-Link
+[Link](https://)
 
 ## Installation 
+- Clone repository to local machine
+- Run ``` npm i ```
+
 
 ## Usage 
+- Open terminal
+- Run ``` node index.js ```
+- Answer prompts
+- A sample README will be generated and stored in the utils folder
