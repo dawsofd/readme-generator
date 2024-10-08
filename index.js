@@ -59,14 +59,14 @@ const userInput = [
     {
         type: "input",
         name: "installation",
-        message: "What are the steps required to install your project?",
+        message: "List the steps required to install your project, separated by commas:",
 
     },
 
     {
         type: "input",
         name: "usage",
-        message: "Provide instructions and examples for the proper use of this project:",
+        message: "List the steps required to execute / run this application, separated by commas:",
 
     },
 

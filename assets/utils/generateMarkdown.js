@@ -12,6 +12,8 @@ function renderLicenseSection(license) {
 }
 
 function renderInstallation(installation) {
+    const installationList = replaceChar(${installation},",","-");
+    return installationList;
 
 }
 
@@ -33,7 +35,7 @@ ${data.descriptionLearn}
 
 * [Usage](#usage)
 
-* [Credits](#contributors)
+* [Credits](#credits)
 
 * [License](#license)
 
@@ -47,7 +49,7 @@ ${data.dependencies}
 
 To complete installing the project, follow these steps:
 
-${data.installation}
+${renderInstallation(data.installationList)}
 
 ## Usage
 
