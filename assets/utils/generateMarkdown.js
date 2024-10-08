@@ -12,9 +12,9 @@ function renderLicenseSection(license) {
 }
 
 function renderInstallation(installation) {
-    const installationList = replaceChar(${installation},",","-");
+    const installationString = ${installation};
+    const installationList = installationString.replaceAll(",","-");
     return installationList;
-
 }
 
 // function to structure README markdown 
