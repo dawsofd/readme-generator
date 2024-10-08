@@ -42,10 +42,10 @@ ${data.dependencies}
 \`\`\`
 
 To complete installing the project, follow these steps:
-${((","+(data.installation)).replaceAll(",","\n-")).replace(/ /g,'')}
+${((", "+(data.installation)).replaceAll(",","\n-"))}
 
 ## Usage
-${((","+(data.usage)).replaceAll(",","\n-")).replace(/ /g,'')}
+${((", "+(data.usage)).replaceAll(",","\n-"))}
 
 ## Credits 
 

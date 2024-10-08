@@ -28,15 +28,15 @@ npm i
 
 To complete installing the project, follow these steps:
 
--eat
--pray
--love
+- eat
+- pray
+- love
 
 ## Usage
 
--eat
--pray
--love
+- eat
+- pray
+- love
 
 ## Credits 
 
